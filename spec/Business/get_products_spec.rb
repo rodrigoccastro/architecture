@@ -8,14 +8,12 @@ RSpec.describe FindProducts, type: :business do
       {
         :id => 1,
         :title => "vestido 1",
-        :price =>  48,
-        :user_id => 1
+        :price =>  48
       },
       {
         :id => 2,
         :title => "vestido 2",
-        :price =>  49,
-        :user_id => 1
+        :price =>  49
       }
     ]
   }
