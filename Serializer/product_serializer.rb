@@ -13,8 +13,7 @@ class Api::Products::V1Serializer < ActiveModel::Serializer
     {
       id: item.id,
       title: item.title,
-      price: item.price,
-      user_id: item.user_id
+      price: item.price
     }
   end
 
