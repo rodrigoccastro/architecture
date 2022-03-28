@@ -1,10 +1,10 @@
-Modelo de arquitetura de código, onde o controller chama o business, que chama o repository que acessa o Model.
+Code architecture model, where the controller calls the business, which calls the repository that accesses the Model.
 
-A informação volta do repository para o business e em seguida ao controller, que chama o serializer para formatar os dados e entregar ao endpoit.
+The information goes back from the repository to the business and then to the controller, which calls the serializer to format the data and deliver it to the endpoint.
 
-Primeiro movimento: Controller -> business -> repository -> model (busca os dados)
+First move: Controller -> business -> repository -> model (fetches the data)
 
-Segundo movimento: model -> repository -> business -> controller (entrega os dados)
+Second movement: model -> repository -> business -> controller (deliver the data)
 
-Terceiro movimento: controller -> serializer -> controller -> response (formata os dados)
+Third move: controller -> serializer -> controller -> response (formats the data)
 
